@@ -2,9 +2,11 @@ import React from 'react'
 import Navbar from './navbar'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Poppins } from 'next/font/google'
 import ExternalLinks from './external'
 import { useRouter } from 'next/router';
+import boonLogo from '../../public/boon_logo.svg'
 
 const poppins = Poppins({ subset: ["latin"], weight: ['200', '300', '400', '600', '700', '800'], preload: false })
 
@@ -22,9 +24,10 @@ const Layout = ({ children }) => {
             </Head>
             <main className={poppins.className + " p-4 md:h-screen md:flex md:flex-col md:justify-center md:items-center overflow-x-hidden"}>
                 <div className="md:w-full md:relative lg:w-[1024px] xl:w-[1200px]">
-                    <section className="md:w-full md:absolute mt-4 text-2xl flex justify-end items-center">
+                    <section className="md:w-full h-[75px] md:absolute mt-4 text-2xl flex justify-end items-center">
                         <div className="w-full pl-4 flex items-center">
-                            <Link href="/" className={(router.pathname !== '/' ? 'block' : 'invisible') + ' mr-16 text-lg p-2 rounded-lg hover:bg-[#333] transition flex item-center'}>
+                            <Image src={boonLogo} alt="logo" className={(router.pathname === '/' ? 'block' : 'hidden md:block') + ' '}></Image>
+                            <Link href="/" className={(router.pathname !== '/' ? 'block' : 'hidden') + ' md:ml-3 mr-16 text-lg p-2 rounded-lg hover:bg-[#333] transition flex item-center'}>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-bar-to-left mr-1 pt-1" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1="10" y1="12" x2="20" y2="12" />
@@ -41,6 +44,7 @@ const Layout = ({ children }) => {
                     </section>
                 </div>
                 <div className="h-full w-full py-4 md:flex md:flex-col md:justify-center md:items-center lg:w-[1024px] xl:w-[1300px] md:max-h-[900px]">
+                    <div className="w-full md:h-[200px]"></div> {/* spacer */}
                     <div className="flex flex-col h-full min-[390px]:items-center md:flex-row md:justify-center md:items-start pt-4 md:py-16 md:min-h-[650px] md:max-h-[750px]">
                         <section className="md:w-[410px] lg:w-[550px] xl:w-[650px] h-full md:flex md:items-start md:overflow-y-auto md:mr-4 lg:mr-8">
                             {children} {/* page */}

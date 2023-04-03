@@ -12,7 +12,7 @@ const TeaPage = () => {
                 <div>
                     <div className="w-[3px] h-full bg-white"></div>
                     <div>
-                        <h1 className="text-5xl tracking-wide font-semibold my-2 px-2">Tea API</h1>
+                        <h1 className="text-5xl tracking-wide font-semibold my-2 px-2 hello-in">Tea API</h1>
                         <div className="px-2">
                             <p>A free and open-source RESTful Web-API for tea, with specific information for each tea such as origin, alternative names and descriptions.</p>
                             <div className="my-2">

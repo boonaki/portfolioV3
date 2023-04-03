@@ -19,13 +19,13 @@ const Navbar = () => {
 
     switch(selected){
         case 1: 
-            elem = <MenuOptions menuOpts={[{url: '/progressio', title: 'Progressio'}, {url: '/nasa', title: 'NASA Apod'}, {url: '/tea-api', title: 'Tea API'}]} />
+            elem = <MenuOptions menuOpts={[{url: '/progressio', title: 'Progressio', type: 'int'}, {url: '/nasa', title: 'NASA Apod', type: 'int'}, {url: '/tea-api', title: 'Tea API', type: 'int'}]} />
             break;
         case 2:
-            elem = <MenuOptions menuOpts={[{url: '/skyward', title: 'Skyward'}, {url: '/ill-will', title: 'Ill Will'}, {url: '/onya-rose', title: 'Onya Rose Photography'}]} />
+            elem = <MenuOptions menuOpts={[{url: '/skyward', title: 'Skyward', type: 'int'}, {url: '/ill-will', title: 'Ill Will', type: 'int'}, {url: '/onya-rose', title: 'Onya Rose Photography', type: 'int'}]} />
             break;
         case 3:
-            elem = ""
+            elem = <MenuOptions menuOpts={[{url: 'joshdurrett17@gmail.com', 'title': 'Email', type: 'ext'}, {url: 'https://github.com/boonaki', 'title': 'Github', type: 'ext'}, {url: 'https://twitter.com/durrettjosh', 'title': 'Twitter', type: 'ext'}, {url: 'https://linkedin.com/in/joshdurrett', 'title': 'LinkedIn', type: 'ext'}]}/>
             break;
     }
 
@@ -35,8 +35,8 @@ const Navbar = () => {
             <div className="flex flex-col items-center w-full px-4">
                 <div className="flex justify-between items-center px-2 w-full font-semibold sm:px-4 sm:text-lg">
                     <button className={selected === 1 ? 'translate-y-[-0.175rem] transition duration-75' : 'text-gray-300 transition duration-75 hover:text-white hover:translate-y-[-0.175rem]'} onClick={() => updateOptions(1)}>Projects</button>
-                    <button className={selected === 2 ? 'translate-y-[-0.175rem] transition duration-75' : 'text-gray-300 transition duration-75 hover:text-white hover:translate-y-[-0.175rem]'} onClick={() => updateOptions(2)}>Client Work</button>
-                    <button className={selected === 3 ? 'translate-y-[-0.175rem] transition duration-75' : 'text-gray-300 transition duration-75 hover:text-white hover:translate-y-[-0.175rem]'} onClick={() => updateOptions(3)}>Contact</button>
+                    <button className={selected === 2 ? 'translate-y-[-0.175rem] transition duration-75' : 'text-gray-300 transition duration-75 hover:text-white hover:translate-y-[-0.175rem]'} onClick={() => updateOptions(2)}>Web Dev</button>
+                    <Link href="/contact" className={selected === 3 ? 'translate-y-[-0.175rem] transition duration-75' : 'text-gray-300 transition duration-75 hover:text-white hover:translate-y-[-0.175rem]'} onClick={() => updateOptions(3)}>Contact</Link>
                 </div>
 
                 {/* spacer */}
