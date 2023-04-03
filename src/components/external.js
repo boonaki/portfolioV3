@@ -2,13 +2,13 @@
 const ExternalLinks = () => {
     return (
         <>
-            <span className="mx-2">
+            <a href="mailto:joshuadurrett@boonaki.me" className="mx-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-mail md:w-[38px] md:h-[38px] transition p-1 hover:bg-[#333] rounded-lg" width="34" height="34" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <rect x="3" y="5" width="18" height="14" rx="2" />
                     <polyline points="3 7 12 13 21 7" />
                 </svg>
-            </span>
+            </a>
             <a href="https://www.linkedin.com/in/joshdurrett/" className="mx-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-linkedin md:w-[38px] md:h-[38px] transition p-1 hover:bg-[#333] rounded-lg" width="34" height="34" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />

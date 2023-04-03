@@ -15,7 +15,8 @@ const IllWillPage = () => {
                         <div className="px-2">
                             <p>An E-commerce platform that offers various candles for users to choose from, or build your own with the build-your-own-candle tool. This project uses Stripe and Paypal to process user payments, alongside Node and Express.</p>
                             <div className="my-2 px-2">
-                                <a href="https://reachskyward.com" className="mx-3 underline">Visit &gt;</a>
+                                <a href="https://https://illwillprototype.up.railway.app/" className="mx-3 underline">Visit &gt;</a>
+                                <a href="https://https://illwillprototype.netlify.app/" className="mx-3 underline">See Prototype &gt;</a>
                             </div>
                         </div>
                     </div>

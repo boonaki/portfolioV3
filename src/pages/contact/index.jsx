@@ -36,6 +36,9 @@ const Contact = () => {
                             <label for="message" className="sr-only">Message</label>
                             <textarea className="bg-transparent p-2 border-b-2 border-[#333] placeholder-[#4c4c4c] w-full focus:outline-none focus:border-white transition" rows="5" placeholder="Enter a Message" id="message" name="message"></textarea>
                         </div>
+                        <div className="mt-8 px-4">
+                            <button className="w-full py-2 rounded-lg border-2 border-white hover:bg-white hover:text-[#202020] transition">Send Message</button>
+                        </div>
                     </form>
                 </div>
             </div>

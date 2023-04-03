@@ -15,7 +15,7 @@ const ORPPage = () => {
                         <div className="px-2">
                             <p>A portfolio built to showcase her work and to offer a place for potential customers to book with them.</p>
                             <div className="my-2 px-2">
-                                <a href="https://progress.cyclic.app" className="mx-3 underline">Visit &gt;</a>
+                                <a href="https://onyarosephotography.netlify.app/" className="mx-3 underline">Visit &gt;</a>
                             </div>
                         </div>
                     </div>
