@@ -8,7 +8,7 @@ import ExternalLinks from './external'
 import { useRouter } from 'next/router';
 import boonLogo from '../../public/boon_logo.svg'
 
-const poppins = Poppins({ subset: ["latin"], weight: ['200', '300', '400', '600', '700', '800'], preload: false })
+const poppins = Poppins({ subset: ["latin"], weight: ['300', '400', '600', '700', '800'], preload: false })
 
 const Layout = ({ children }) => {
     const router = useRouter()
