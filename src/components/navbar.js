@@ -1,0 +1,54 @@
+
+import Link from 'next/link'
+import { useState } from 'react'
+import MenuOptions from './menuoptions'
+
+const Navbar = () => {
+    const [selected, setSelected] = useState(1)
+
+    const updateOptions = (n) => {
+        setSelected(n)
+    }
+
+    const menuOpts = {
+        url: '',
+        text: '',
+    }
+
+    let elem
+
+    switch(selected){
+        case 1: 
+            elem = <MenuOptions menuOpts={[{url: '/progressio', title: 'Progressio'}, {url: '/nasa', title: 'NASA Apod'}, {url: '/tea-api', title: 'Tea API'}]} />
+            break;
+        case 2:
+            elem = <MenuOptions menuOpts={[{url: '/skyward', title: 'Skyward'}, {url: '/ill-will', title: 'Ill Will'}, {url: '/onya-rose', title: 'Onya Rose Photography'}]} />
+            break;
+        case 3:
+            elem = ""
+            break;
+    }
+
+    return (
+        <section className="flex flex-col items-center my-6 min-[390px]:w-[390px] md:w-[380px] lg:w-[410px]">
+            {/* tabs component */}
+            <div className="flex flex-col items-center w-full px-4">
+                <div className="flex justify-between items-center px-2 w-full font-semibold sm:px-4 sm:text-lg">
+                    <button className={selected === 1 ? 'translate-y-[-0.175rem] transition duration-75' : 'text-gray-300 transition duration-75 hover:text-white hover:translate-y-[-0.175rem]'} onClick={() => updateOptions(1)}>Projects</button>
+                    <button className={selected === 2 ? 'translate-y-[-0.175rem] transition duration-75' : 'text-gray-300 transition duration-75 hover:text-white hover:translate-y-[-0.175rem]'} onClick={() => updateOptions(2)}>Client Work</button>
+                    <button className={selected === 3 ? 'translate-y-[-0.175rem] transition duration-75' : 'text-gray-300 transition duration-75 hover:text-white hover:translate-y-[-0.175rem]'} onClick={() => updateOptions(3)}>Contact</button>
+                </div>
+
+                {/* spacer */}
+                <div className="w-full bg-white h-[2px] rounded-lg mt-2 mb-3"></div>
+            </div>
+
+
+            {/* options component */}
+            {elem}
+
+        </section>
+    )
+}
+
+export default Navbar
