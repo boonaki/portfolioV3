@@ -11,7 +11,7 @@ const ORPPage = () => {
             <div className="h-full">
                 <div className="mb-4">
                     <div>
-                        <h1 className="text-5xl tracking-wide font-semibold my-2 px-2 hello-in">Onya Rose Photography</h1>
+                        <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Onya Rose Photography</h1>
                         <div className="px-2">
                             <p>A portfolio built to showcase her work and to offer a place for potential customers to book with them.</p>
                             <div className="my-2 px-2">
