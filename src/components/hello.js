@@ -8,7 +8,7 @@ const Hello = () => {
     setInterval(() => {
         setIdx(idx + 1)
         setHello(hellos[idx % hellos.length])
-    }, 8000)
+    }, 5500)
 
 
 
