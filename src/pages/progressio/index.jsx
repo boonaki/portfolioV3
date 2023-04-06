@@ -21,7 +21,7 @@ const ProgressioPage = () => {
                         </div>
                     </div>
                     <div className="mt-4 px-4">
-                        <Image src={gif} alt="gif" className="w-full my-6"></Image>                        
+                        <Image src={gif} alt="gif" className="w-full my-6" />                       
                     </div>
                 </div>
             </div>

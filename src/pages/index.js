@@ -20,7 +20,9 @@ export default function Home() {
                 <div>
                     <div className="w-[3px] h-full bg-white"></div>
                     <div>
-                        <Hello />
+                        <div className="overflow-y-hidden text-5xl md:text-6xl mb-3 tracking-wide font-semibold ">
+                            <Hello />
+                        </div>
                         <div className="">
                             <p>My name is Josh Durrett. I am a <span className="font-semibold">full-stack Software Engineer</span> based in Raleigh, North Carolina. I work to make the world a more enjoyable place through my skills as a web-developer.</p>
                             <div className="my-2 px-2 flex flex flex-wrap">
@@ -41,13 +43,12 @@ export default function Home() {
                         <span className="mx-2 my-1">Express</span>
                         <span className="mx-2 my-1">React</span>
                         <span className="mx-2 my-1">Node.js</span>
-                        <span className="mx-2 my-1">Next.js</span>
                         <span className="mx-2 my-1">MySQL</span>
+                        <span className="mx-2 my-1">Artificial Intelligence</span>
                         <span className="mx-2 my-1">PlanetScale</span>
                         <span className="mx-2 my-1">MongoDB</span>
                         <span className="mx-2 my-1">Prisma</span>
-                        <span className="mx-2 my-1">TRPC</span>
-                        <span className="mx-2 my-1">ZOD</span>
+                        <span className="mx-2 my-1">REST/TRPC</span>
                         <span className="mx-2 my-1">Figma</span>
                         <span className="mx-2 my-1">Git</span>
                     </div>

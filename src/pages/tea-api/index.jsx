@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import gif from '../../../public/imgs/teaapi.gif'
 
 const TeaPage = () => {
     return (
@@ -23,7 +24,7 @@ const TeaPage = () => {
                     </div>
                 </div>
                 <div>
-                    <Image src="" alt=""></Image>
+                    <Image src={gif} alt="teaapigif" className="w-full my-6" />
                 </div>
             </div>
         </>

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import gif from '../../../public/imgs/nasaapod.gif'
 
 const NasaPage = () => {
     return (
@@ -22,7 +23,7 @@ const NasaPage = () => {
                     </div>
                 </div>
                 <div>
-                    <Image src="" alt=""></Image>
+                    <Image src={gif} alt="gif" className="w-full my-6" />   
                 </div>
             </div>
         </>
