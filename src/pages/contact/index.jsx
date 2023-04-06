@@ -14,6 +14,7 @@ const Contact = () => {
                         <div className="px-2">
                             <p>I am always open to new freelance clients, interesting project opportunities, and new friends! Feel free to reach out using the form below or any of my socials.</p>
                             <div className="my-2">
+                                <a href="mailto:joshdurrett17@gmail.com" className="mx-2 underline">joshdurrett17@gmail.com</a>
                                 <a href="https://progress.cyclic.app/u/boonaki" className="mx-2 underline">My Progress &gt;</a>
                             </div>
                         </div>

@@ -13,10 +13,10 @@ const IllWillPage = () => {
                     <div>
                         <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Ill Will</h1>
                         <div className="px-2">
-                            <p>An E-commerce platform that offers various candles for users to choose from, or build your own with the build-your-own-candle tool. This project uses Stripe and Paypal to process user payments, alongside Node and Express.</p>
+                            <p>An E-commerce platform that allows users to browse a wide selection of candles or create their own using the build-your-own-candle tool. The project utilizes Stripe and Paypal for payment processing, in tandem with a custom-built Content-Management System and Inventory Management System to ensure a streamlined, user-friendly process for both business owners and customers.</p>
                             <div className="my-2 px-2">
-                                <a href="https://https://illwillprototype.up.railway.app/" className="mx-3 underline">Visit &gt;</a>
-                                <a href="https://https://illwillprototype.netlify.app/" className="mx-3 underline">See Prototype &gt;</a>
+                                <a href="https://illwillprototype.up.railway.app/" className="mx-3 underline">Visit &gt;</a>
+                                <a href="https://illwillprototype.netlify.app/" className="mx-3 underline">See Prototype &gt;</a>
                             </div>
                         </div>
                     </div>

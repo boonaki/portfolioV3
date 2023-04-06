@@ -42,11 +42,11 @@ export default function Home() {
                         <span className="mx-2 my-1">Typescript</span>
                         <span className="mx-2 my-1">Express</span>
                         <span className="mx-2 my-1">React</span>
-                        <span className="mx-2 my-1">Node.js</span>
-                        <span className="mx-2 my-1">MySQL</span>
-                        <span className="mx-2 my-1">Artificial Intelligence</span>
-                        <span className="mx-2 my-1">PlanetScale</span>
                         <span className="mx-2 my-1">MongoDB</span>
+                        <span className="mx-2 my-1">Node.js</span>
+                        <span className="mx-2 my-1">Artificial Intelligence</span>
+                        <span className="mx-2 my-1">MySQL</span>
+                        <span className="mx-2 my-1">PlanetScale</span>
                         <span className="mx-2 my-1">Prisma</span>
                         <span className="mx-2 my-1">REST/TRPC</span>
                         <span className="mx-2 my-1">Figma</span>
