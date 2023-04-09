@@ -8,12 +8,12 @@ const Hello = () => {
     setInterval(() => {
         setIdx(idx + 1)
         setHello(hellos[idx % hellos.length])
-    }, 5500)
+    }, 7500)
 
 
 
     return (
-        <h3 className="hello-in" key={hello}>{hello}</h3>
+        <h3 className="hello-in h-full" key={hello}>{hello}</h3>
     )
 }
 

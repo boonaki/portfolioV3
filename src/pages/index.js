@@ -13,14 +13,14 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Josh Durrett Portfolio</title>
+                <title>Josh Durrett - Software Engineer</title>
             </Head>
 
             <div className="px-2 w-full">
                 <div>
                     <div className="w-[3px] h-full bg-white"></div>
                     <div>
-                        <div className="overflow-y-hidden text-5xl md:text-6xl mb-3 tracking-wide font-semibold ">
+                        <div className="text-5xl md:text-6xl mb-3 tracking-wide font-semibold ">
                             <Hello />
                         </div>
                         <div className="">
@@ -40,15 +40,15 @@ export default function Home() {
                         <span className="mx-2 my-1">Tailwind</span>
                         <span className="mx-2 my-1">Javascript</span>
                         <span className="mx-2 my-1">Typescript</span>
-                        <span className="mx-2 my-1">Express</span>
+                        <span className="mx-2 my-1">Express.js</span>
                         <span className="mx-2 my-1">React</span>
                         <span className="mx-2 my-1">MongoDB</span>
                         <span className="mx-2 my-1">Node.js</span>
                         <span className="mx-2 my-1">Artificial Intelligence</span>
+                        <span className="mx-2 my-1">Machine Learning</span>
                         <span className="mx-2 my-1">MySQL</span>
-                        <span className="mx-2 my-1">PlanetScale</span>
-                        <span className="mx-2 my-1">Prisma</span>
-                        <span className="mx-2 my-1">REST/TRPC</span>
+                        <span className="mx-2 my-1">REST</span>
+                        <span className="mx-2 my-1">tRPC</span>
                         <span className="mx-2 my-1">Figma</span>
                         <span className="mx-2 my-1">Git</span>
                     </div>

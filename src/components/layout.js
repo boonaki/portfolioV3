@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Head>
-                <meta name="description" content="I am a software engineer with a passion for solving problems. I focus in building full-stack web applications with the MERN stack, but my specialty comes in my ability to learn. Contact me to work together" />
+                <meta name="description" content="I am a software engineer with a passion for solving problems. I specialize in building full-stack web applications with the MERN stack. Being able to provide a fulfilling product that I can infuse my creativity, critical thinking and passions into simple, elegant and innovative solutions, is what I love to do." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 {/* <link rel="preconnect" href="https://fonts.googleapis.com"></link>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
