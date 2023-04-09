@@ -47,6 +47,7 @@ export default function Home() {
                         <span className="mx-2 my-1">Artificial Intelligence</span>
                         <span className="mx-2 my-1">Machine Learning</span>
                         <span className="mx-2 my-1">MySQL</span>
+                        <span className="mx-2 my-1">PostgreSQL</span>
                         <span className="mx-2 my-1">REST</span>
                         <span className="mx-2 my-1">tRPC</span>
                         <span className="mx-2 my-1">Figma</span>
