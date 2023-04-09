@@ -21,6 +21,7 @@ export default function Home() {
                     <div className="w-[3px] h-full bg-white"></div>
                     <div>
                         <div className="text-5xl md:text-6xl mb-3 tracking-wide font-semibold ">
+                            <h1 className="sr-only">Josh Durrett</h1>
                             <Hello />
                         </div>
                         <div className="">
