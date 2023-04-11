@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
                 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,400;1,600&display=swap" rel="stylesheet"></link> */}
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className={poppins.className + " p-4 md:h-screen md:flex md:flex-col md:justify-center md:items-center overflow-x-hidden"}>
+            <main className={poppins.className + " text-white p-4 md:h-screen md:flex md:flex-col md:justify-center md:items-center overflow-x-hidden"}>
                 <div className="md:w-full md:relative lg:w-[1024px] xl:w-[1200px]">
                     <section className="md:w-full h-[75px] md:absolute mt-4 text-2xl flex justify-end items-center">
                         <div className="w-full pl-4 flex items-center">
