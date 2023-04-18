@@ -36,8 +36,8 @@ export default function Home() {
                 <div className="my-6 w-full">
                     <h3 className="font-bold text-2xl">Tech I Use:</h3>
                     <div className="flex my-1 flex-wrap px-2">
-                        <span className="mx-2 my-1">HTML5</span>
-                        <span className="mx-2 my-1">CSS3</span>
+                        <span className="mx-2 my-1">HTML</span>
+                        <span className="mx-2 my-1">CSS</span>
                         <span className="mx-2 my-1">Tailwind</span>
                         <span className="mx-2 my-1">Javascript</span>
                         <span className="mx-2 my-1">Typescript</span>

@@ -50,6 +50,18 @@ body {
     animation-fill-mode: forwards;
 }
 
+.info-msg-in{
+   animation: infoFadeInAnimation ease .5s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+.info-msg-out{
+   animation: fadeOutAnimation ease .5s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -60,6 +72,29 @@ body {
         opacity: 1;
         transform: translateY(0%);
     }
+}
+@keyframes infoFadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes fadeOutAnimation {
+   0% {
+       opacity: 1;
+       transform: translateY(0%);
+   }
+
+   100% {
+       opacity: 0;
+       transform: translateY(-25%);
+   }
 }
 
 
