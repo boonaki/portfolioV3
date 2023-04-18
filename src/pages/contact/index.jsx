@@ -32,6 +32,7 @@ const Contact = () => {
             setMessage('')
             setTimeout(() => {
                document.getElementById('info-msg').classList.add('info-msg-out');
+               document.getElementById('info-msg').classList.remove('info-msg-in');
                setSubmitted(false)
              }, 5000);             
          }
@@ -45,7 +46,7 @@ const Contact = () => {
          </Head>
          {submitted &&
             <div className="absolute left-0 top-0 w-full flex justify-center mt-8">
-               <span id="info-msg" className="info-msg-in w-fit py-3 px-4 rounded-lg bg-[#539576] font-bold">Message Sent</span>
+               <span id="info-msg" className="info-msg-in transition w-fit py-3 px-4 rounded-lg bg-[#539576] font-bold">Message Sent</span>
             </div>
          }
          <div>

@@ -34,7 +34,6 @@ export default function handler(req, res) {
       else
          console.log('message sent')
    })
-
-
+   
    return res.status(200).send('Message Sent')
 }
