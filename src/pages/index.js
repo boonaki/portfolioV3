@@ -43,6 +43,7 @@ export default function Home() {
                         <span className="mx-2 my-1">Typescript</span>
                         <span className="mx-2 my-1">Express.js</span>
                         <span className="mx-2 my-1">React</span>
+                        <span className="mx-2 my-1">Angular</span>
                         <span className="mx-2 my-1">MongoDB</span>
                         <span className="mx-2 my-1">Node.js</span>
                         <span className="mx-2 my-1">Artificial Intelligence</span>
