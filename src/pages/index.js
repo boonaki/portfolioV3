@@ -2,6 +2,7 @@ import Head from 'next/head'
 // import Image from 'next/image'
 // import { Poppins } from 'next/font/google'
 import Link from 'next/link'
+import Script from 'next/script'
 // import { useState } from 'react'
 import Hello from '@/components/hello'
 
@@ -59,7 +60,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
+            <Script async src="https://lucent-cucurucho-12ac10.netlify.app/script.js" data-website-id="16e6aefd-173c-4e3c-9046-47f59f4001c1" />
         </>
     )
 }
