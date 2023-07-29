@@ -35,9 +35,9 @@ const OvenonPage = () => {
             <div className="mt-4 px-4">
                <Image src={img1} alt="gif" className="w-full my-6"></Image>
                <Image src={img2} alt="gif" className="w-full my-6"></Image>
-               <Image src={img3} alt="gif" className="w-full my-6"></Image>
-               <Image src={img4} alt="gif" className="w-full my-6"></Image>
-               <Image src={img5} alt="gif" className="w-full my-6"></Image>
+               <Image src={img3} alt="gif" loading="lazy" className="w-full my-6"></Image>
+               <Image src={img4} alt="gif" loading="lazy" className="w-full my-6"></Image>
+               <Image src={img5} alt="gif" loading="lazy" className="w-full my-6"></Image>
             </div>
          </div>
       </>
