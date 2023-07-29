@@ -6,7 +6,7 @@ const NasaPage = () => {
    return (
       <>
          <Head>
-            <title>NASA APOD</title>
+            <title>NASA APOD - Project</title>
          </Head>
          <div>
             <div>
@@ -25,13 +25,12 @@ const NasaPage = () => {
             <div className="my-6 w-full">
                <h3 className="font-bold text-2xl">Tech Used:</h3>
                <div className="flex my-1 flex-wrap px-2">
-                  <span className="mx-2 my-1">HTML5</span>
-                  <span className="mx-2 my-1">CSS3</span>
-                  <span className="mx-2 my-1">Javascript</span>
-                  <span className="mx-2 my-1">Typescript</span>
-                  <span className="mx-2 my-1">Express.js</span>
-                  <span className="mx-2 my-1">MongoDB</span>
-                  <span className="mx-2 my-1">Node.js</span>
+                  <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#425c88] font-semibold'># </span>HTML</span>
+                  <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#425c88] font-semibold'># </span>Tailwind</span>
+                  <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#425c88] font-semibold'># </span>Javascript</span>
+                  <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#425c88] font-semibold'># </span>Express.js</span>
+                  <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#425c88] font-semibold'># </span>MongoDB</span>
+                  <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#425c88] font-semibold'># </span>Node.js</span>
                </div>
             </div>
             <div>

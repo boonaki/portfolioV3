@@ -1,19 +1,21 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Poppins } from 'next/font/google'
+// import Image from 'next/image'
+// import { Poppins } from 'next/font/google'
 import Link from 'next/link'
-import { useState } from 'react'
+// import { useState } from 'react'
 import Hello from '@/components/hello'
 
 // const ssp = Source_Sans_Pro({ subsets: ['latin'], weight: ['200', '300', '400', '600', '700', '900'] })
-const poppins = Poppins({ subset: ["latin"], weight: ['200', '300', '400', '600', '700', '800'], preload: false })
+// const poppins = Poppins({ subset: ["latin"], weight: ['200', '300', '400', '600', '700', '800'], preload: false })
 
 export default function Home() {
     
     return (
         <>
             <Head>
-                <title>Josh Durrett - Software Engineer</title>
+               <title>Josh Durrett - Software Engineer</title>
+               <meta name="description" content="I am a software engineer with a passion for solving problems. I specialize in building full-stack web applications using a variety of tools. Being able to provide a fulfilling product that I can infuse my creativity, critical thinking and passions into simple, elegant and innovative solutions, is what I love to do." />
+               <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
 
             <div className="px-2 w-full">
@@ -46,7 +48,6 @@ export default function Home() {
                         <span className="mx-2 my-1">Angular</span>
                         <span className="mx-2 my-1">MongoDB</span>
                         <span className="mx-2 my-1">Node.js</span>
-                        <span className="mx-2 my-1">Artificial Intelligence</span>
                         <span className="mx-2 my-1">Machine Learning</span>
                         <span className="mx-2 my-1">MySQL</span>
                         <span className="mx-2 my-1">PostgreSQL</span>
@@ -56,10 +57,6 @@ export default function Home() {
                         <span className="mx-2 my-1">Git</span>
                     </div>
                 </div>
-
-                {/* <div>
-                    <Link href="" className="font-semibold text-xl">Get In Touch</Link>
-                </div> */}
             </div>
 
         </>

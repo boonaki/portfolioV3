@@ -13,7 +13,7 @@ const ProgressioPage = () => {
                <div>
                   <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Progressio</h1>
                   <div className="px-2">
-                     <p>A place to post, organize and share the progress you make in any hobby or activity you have interest in.</p>
+                     <p>A place to post, organize and share the progress you make in any hobby or activity you have interest in. This project is the predecessor to Evolvr, and acted as a proof-of-concept.</p>
                      <div className="my-2">
                         <a href="https://progress.cyclic.app" className="mx-2 underline">Visit</a>
                         <a href="https://github.com/boonaki/progressio" className="mx-2 underline">Read More</a>
@@ -23,13 +23,13 @@ const ProgressioPage = () => {
                <div className="my-6 w-full">
                   <h3 className="font-bold text-2xl">Tech Used:</h3>
                   <div className="flex my-1 flex-wrap px-2">
-                     <span className="mx-2 my-1">HTML</span>
-                     <span className="mx-2 my-1">Tailwind</span>
-                     <span className="mx-2 my-1">Javascript</span>
-                     <span className="mx-2 my-1">Express.js</span>
-                     <span className="mx-2 my-1">MongoDB</span>
-                     <span className="mx-2 my-1">Node.js</span>
-                     <span className="mx-2 my-1">Cloudinary</span>
+                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#70e19c] font-semibold'># </span>HTML</span>
+                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#70e19c] font-semibold'># </span>Tailwind</span>
+                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#70e19c] font-semibold'># </span>Javascript</span>
+                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#70e19c] font-semibold'># </span>Express.js</span>
+                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#70e19c] font-semibold'># </span>MongoDB</span>
+                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#70e19c] font-semibold'># </span>Node.js</span>
+                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#70e19c] font-semibold'># </span>Cloudinary</span>
                   </div>
                </div>
                <div className="mt-4 px-4">

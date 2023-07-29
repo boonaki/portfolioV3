@@ -15,11 +15,6 @@ const Layout = ({ children }) => {
     return (
         <>
             <Head>
-                <meta name="description" content="I am a software engineer with a passion for solving problems. I specialize in building full-stack web applications with the MERN stack. Being able to provide a fulfilling product that I can infuse my creativity, critical thinking and passions into simple, elegant and innovative solutions, is what I love to do." />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                {/* <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-                <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,400;1,600&display=swap" rel="stylesheet"></link> */}
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={poppins.className + " text-white p-4 md:h-screen md:flex md:flex-col md:justify-center md:items-center overflow-x-hidden"}>
@@ -28,7 +23,7 @@ const Layout = ({ children }) => {
                         <div className="w-full pl-4 flex items-center">
                             <Image src={boonLogo} alt="logo" className={(router.pathname === '/' ? 'block' : 'hidden md:block') + ' '}></Image>
                             <Link href="/" className={(router.pathname !== '/' ? 'block' : 'hidden') + ' md:ml-3 mr-16 text-lg p-2 rounded-lg hover:bg-[#333] transition flex item-center'}>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-bar-to-left mr-1 pt-1" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-left mr-1 pt-1" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1="10" y1="12" x2="20" y2="12" />
                                     <line x1="10" y1="12" x2="14" y2="16" />
