@@ -32,6 +32,7 @@ const Evolvr = () => {
                      <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>AWS</span>
                      <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>Nextjs</span>
                      <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>tRPC</span>
+                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>Redis</span>
                   </div>
                </div>
                <div className="mt-4 px-4">
