@@ -7,6 +7,7 @@ const TeaPage = () => {
       <>
          <Head>
             <title>Tea API</title>
+            <meta name="author" content="Josh Durrett" />
          </Head>
 
          <div>

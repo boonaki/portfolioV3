@@ -9,6 +9,7 @@ const ORPPage = () => {
       <>
          <Head>
             <title>Onya Rose Photography Project</title>
+            <meta name="author" content="Josh Durrett" />
          </Head>
          <div className="h-full">
             <div className="mb-4">

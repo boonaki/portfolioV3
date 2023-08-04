@@ -15,7 +15,8 @@ export default function Home() {
         <>
             <Head>
                <title>Josh Durrett - Software Engineer</title>
-               <meta name="description" content="I am a software engineer with a passion for solving problems. I specialize in building full-stack web applications using a variety of tools. Being able to provide a fulfilling product that I can infuse my creativity, critical thinking and passions into simple, elegant and innovative solutions, is what I love to do." />
+               <meta name="description" content="My name is Josh Durrett, I am a software engineer with a passion for solving problems. I specialize in building full-stack web applications using a variety of tools. Being able to provide a fulfilling product that I can infuse my creativity, critical thinking and passions into simple, elegant and innovative solutions, is what I love to do." />
+               <meta name="author" content="Josh Durrett" />
                <meta property="og:image" content="/imgs/boon-logo-full.png" />
                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>

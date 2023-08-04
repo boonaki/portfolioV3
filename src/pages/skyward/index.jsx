@@ -9,6 +9,7 @@ const SkywardPage = () => {
       <>
          <Head>
             <title>Skyward - Client</title>
+            <meta name="author" content="Josh Durrett" />
          </Head>
          <div className="h-full">
             <div className="mb-4">

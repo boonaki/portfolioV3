@@ -7,6 +7,7 @@ const NasaPage = () => {
       <>
          <Head>
             <title>NASA APOD - Project</title>
+            <meta name="author" content="Josh Durrett" />
          </Head>
          <div>
             <div>

@@ -7,6 +7,7 @@ const IllWillPage = () => {
       <>
          <Head>
             <title>Ill Will - Client</title>
+            <meta name="author" content="Josh Durrett" />
          </Head>
          <div className="h-full">
             <div className="mb-4">

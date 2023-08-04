@@ -7,6 +7,7 @@ const Evolvr = () => {
       <>
          <Head>
             <title>Evolvr - Project</title>
+            <meta name="author" content="Josh Durrett" />
          </Head>
          <div className="h-full">
             <div className="mb-4">

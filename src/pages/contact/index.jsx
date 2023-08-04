@@ -43,6 +43,7 @@ const Contact = () => {
       <>
          <Head>
             <title>Contact Me</title>
+            <meta name="author" content="Josh Durrett" />
          </Head>
          {submitted &&
             <div className="absolute left-0 top-0 w-full flex justify-center mt-8">

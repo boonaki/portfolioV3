@@ -7,6 +7,7 @@ const ProgressioPage = () => {
       <>
          <Head>
             <title>Progressio</title>
+            <meta name="author" content="Josh Durrett" />
          </Head>
          <div className="h-full">
             <div className="mb-4">
