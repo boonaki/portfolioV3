@@ -9,7 +9,7 @@ const NasaPage = () => {
             <title>NASA APOD - Project</title>
             <meta name="author" content="Josh Durrett" />
          </Head>
-         <div>
+         <div className='max-w-[850px]'>
             <div>
                <div className="w-[3px] h-full bg-white"></div>
                <div>

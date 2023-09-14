@@ -50,7 +50,7 @@ const Contact = () => {
                <span id="info-msg" className="info-msg-in transition w-fit py-3 px-4 rounded-lg bg-[#539576] font-bold">Message Sent</span>
             </div>
          }
-         <div>
+         <div className='max-w-[850px]'>
             <div>
                <div className="w-[3px] h-full bg-white"></div>
                <div>

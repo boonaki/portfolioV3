@@ -8,7 +8,7 @@ const Square = () => {
          <Head>
             <title>Square Tag - Project</title>
          </Head>
-         <div className="h-full">
+         <div className="h-full max-w-[850px]">
             <div className="mb-4">
                <div>
                   <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Square Tag</h1>
