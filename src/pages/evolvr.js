@@ -19,7 +19,7 @@ const Evolvr = () => {
                      <div className="my-2 px-2">
                         <a href="https://evolvr.ink" className="mx-3 my-1 underline inline-block">Visit &gt;</a>
                         <a href="https://evolvr.ink/faq" className="mx-3 my-1 underline inline-block">FAQ &gt;</a>
-                        <a href="https://github.com/boonaki/progress" className="mx-3 my-1 underline inline-block">Read about the previous build &gt;</a>
+                        <a href="https://github.com/boonaki/progress#progressio" className="mx-3 my-1 underline inline-block">Read about the previous build &gt;</a>
                      </div>
                   </div>
                </div>
