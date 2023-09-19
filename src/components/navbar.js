@@ -26,8 +26,10 @@ const Navbar = (props) => {
       case 2:
          elem = <MenuOptions menuOpts={[
             { url: '/nasa', title: 'NASA Research APOD', type: 'int' },
+            { url: '/etkr-macro', title: 'ETKR: Macro', type: 'int' },
             { url: '/ill-will', title: 'Ill Will', type: 'int' },
-            { url: '/square-tag', title: 'Square Tag', type: 'int' }
+            { url: '/square-tag', title: 'Square Tag', type: 'int' },
+            { url: '/tower-defense', title: 'Fish Horde: Tower Defense Game', type: 'int' },
          ]} />
          break;
       case 3:
@@ -39,7 +41,7 @@ const Navbar = (props) => {
       <section>
          <div className='w-full justify-end px-4 hidden md:flex'>
             <button onClick={() => props.handleMenu()} className='p-1 hover:bg-[#333] rounded' title={props.isOpen ? 'Close Menu' : 'Open Menu'}>
-               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-category-2" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+               <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-category-2" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M14 4h6v6h-6z" />
                   <path d="M4 14h6v6h-6z" />

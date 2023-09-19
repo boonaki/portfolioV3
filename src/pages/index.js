@@ -20,7 +20,6 @@ export default function Home() {
                <meta property="og:image" content="/imgs/boon-logo-full.png" />
                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-
             <div className="px-2 w-full">
                 <div>
                     <div className="w-[3px] h-full bg-white"></div>
@@ -48,14 +47,14 @@ export default function Home() {
                         <span className="mx-2 my-1">Typescript</span>
                         <span className="mx-2 my-1">Express.js</span>
                         <span className="mx-2 my-1">React</span>
-                        <span className="mx-2 my-1">Angular</span>
+                        <span className="mx-2 my-1">C#</span>
+                        <span className="mx-2 my-1">Java</span>
+                        <span className="mx-2 my-1">Redis</span>
                         <span className="mx-2 my-1">MongoDB</span>
                         <span className="mx-2 my-1">Node.js</span>
-                        <span className="mx-2 my-1">Machine Learning</span>
                         <span className="mx-2 my-1">MySQL</span>
                         <span className="mx-2 my-1">PostgreSQL</span>
                         <span className="mx-2 my-1">REST</span>
-                        <span className="mx-2 my-1">tRPC</span>
                         <span className="mx-2 my-1">Figma</span>
                         <span className="mx-2 my-1">Git</span>
                     </div>
