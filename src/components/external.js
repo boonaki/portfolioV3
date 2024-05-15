@@ -2,7 +2,7 @@
 const ExternalLinks = () => {
     return (
         <>
-            <a href="mailto:joshuadurrett17@gmail.com" className="mx-2" title="to: joshdurrett17@gmail.com">
+            <a href="mailto:joshdurrett17@gmail.com" className="mx-2" title="to: joshdurrett17@gmail.com">
                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-mail md:w-[38px] md:h-[38px] transition p-1 hover:bg-[#333] rounded-lg" width="34" height="34" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <rect x="3" y="5" width="18" height="14" rx="2" />

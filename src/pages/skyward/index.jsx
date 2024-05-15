@@ -18,7 +18,7 @@ const SkywardPage = () => {
                   <div className="px-2">
                      <p>A platform built to offer visitors the ability to peek into the various workshops Skyward offers and book their next appointments. Features a Content-Management System specialized for the owners' needs.</p>
                      <div className="my-2 px-2">
-                        <a href="https://reachskyward.com" className="mx-3 underline">Visit &gt;</a>
+                        <a href="https://www.reachskyward.com" className="mx-3 underline">Visit &gt;</a>
                      </div>
                   </div>
                </div>

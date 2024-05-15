@@ -27,13 +27,12 @@ const Navbar = (props) => {
          elem = <MenuOptions menuOpts={[
             { url: '/nasa', title: 'NASA Research APOD', type: 'int' },
             { url: '/etkr-macro', title: 'ETKR: Macro', type: 'int' },
-            { url: '/ill-will', title: 'Ill Will', type: 'int' },
             { url: '/square-tag', title: 'Square Tag', type: 'int' },
             { url: '/tower-defense', title: 'Fish Horde: Tower Defense Game', type: 'int' },
          ]} />
          break;
       case 3:
-         elem = <MenuOptions menuOpts={[{ url: 'mailto:joshuadurrett@boonaki.me', 'title': 'Email', type: 'ext' }, { url: 'https://github.com/boonaki', 'title': 'Github', type: 'ext' }, { url: 'https://twitter.com/durrettjosh', 'title': 'Twitter', type: 'ext' }, { url: 'https://linkedin.com/in/joshdurrett', 'title': 'LinkedIn', type: 'ext' }]} />
+         elem = <MenuOptions menuOpts={[{ url: 'mailto:joshdurrett17@gmail.com', 'title': 'Email', type: 'ext' }, { url: 'https://github.com/boonaki', 'title': 'Github', type: 'ext' }, { url: 'https://twitter.com/durrettjosh', 'title': 'Twitter', type: 'ext' }, { url: 'https://linkedin.com/in/joshdurrett', 'title': 'LinkedIn', type: 'ext' }]} />
          break;
    }
 
