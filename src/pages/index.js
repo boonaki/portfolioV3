@@ -60,7 +60,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <Script async src="https://lucent-cucurucho-12ac10.netlify.app/script.js" data-website-id="16e6aefd-173c-4e3c-9046-47f59f4001c1" />
+            <Script async src="https://phenomenal-lollipop-8f4f42.netlify.app/script.js" data-website-id="762bbe22-0fd1-49d8-b736-45df1e4340c7" />
         </>
     )
 }
