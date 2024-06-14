@@ -48,7 +48,7 @@ const Evolvr = () => {
                         <br/>
                         <p>I take reasonable measures to protect the task data stored on the user's device. However, please be aware that no method of storage is 100% secure. While I strive to use commercially acceptable means to protect your data, I cannot guarantee its absolute security.</p>
                         <br/>
-                        <p>I may update our privacy policy from time to time. If I make any changes, I will notify you by revising the effective date at the top of the policy. I encourage you to review the privacy policy whenever you access the application to stay informed about information practices used within POMO Rings: Focus.</p>
+                        <p>I may update this privacy policy from time to time. If I make any changes, I will notify you by revising the effective date at the top of the policy. I encourage you to review the privacy policy whenever you access the application to stay informed about information practices used within POMO Rings: Focus.</p>
                         <br/>
                         <p>If you have any questions or concerns about this privacy policy, please contact me at <a className='underline' href='mailto:joshdurrett17@gmail.com'>joshdurrett17@gmail.com</a>.</p>
                     </div>
