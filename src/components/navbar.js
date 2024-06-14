@@ -25,6 +25,7 @@ const Navbar = (props) => {
          break;
       case 2:
          elem = <MenuOptions menuOpts={[
+            { url: '/pomorings', title: 'POMO Rings', type: 'int' },
             { url: '/nasa', title: 'NASA Research APOD', type: 'int' },
             { url: '/etkr-macro', title: 'ETKR: Macro', type: 'int' },
             { url: '/square-tag', title: 'Square Tag', type: 'int' },

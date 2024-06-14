@@ -30,7 +30,7 @@ export default function Home() {
                         </div>
                         <div className="">
                             <p className='max-w-[750px]'>My name is Josh Durrett. I am a <span className="font-semibold">full-stack Software Engineer</span> based in Raleigh, North Carolina. I work to make the world a more enjoyable place through my skills as a web-developer.</p>
-                            <div className="my-2 px-2 flex flex flex-wrap">
+                            <div className="my-2 px-2 flex flex-wrap">
                                 <a href="https://evolvr.ink/u/boonaki" className="mx-2 md:mx-3 my-1 underline block">Follow My Progress &gt;</a>
                                 <Link href="/contact" className="mx-2 md:mx-3 my-1 underline block">Get In Touch &gt;</Link>
                             </div>
@@ -48,7 +48,7 @@ export default function Home() {
                         <span className="mx-2 my-1">Express.js</span>
                         <span className="mx-2 my-1">React</span>
                         <span className="mx-2 my-1">C#</span>
-                        <span className="mx-2 my-1">Java</span>
+                        <span className="mx-2 my-1">Rust</span>
                         <span className="mx-2 my-1">Redis</span>
                         <span className="mx-2 my-1">MongoDB</span>
                         <span className="mx-2 my-1">Node.js</span>
