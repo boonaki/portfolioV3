@@ -20,7 +20,7 @@ export default function Home() {
                <meta property="og:image" content="/imgs/boon-logo-full.png" />
                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <div className="px-2 w-full">
+            <div className="px-2 w-full md:pt-16">
                 <div>
                     <div className="w-[3px] h-full bg-white"></div>
                     <div>
@@ -60,7 +60,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <Script async src="https://phenomenal-lollipop-8f4f42.netlify.app/script.js" data-website-id="762bbe22-0fd1-49d8-b736-45df1e4340c7" />
+            {/* <Script async src="https://phenomenal-lollipop-8f4f42.netlify.app/script.js" data-website-id="762bbe22-0fd1-49d8-b736-45df1e4340c7" /> */}
         </>
     )
 }
