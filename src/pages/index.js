@@ -2,7 +2,6 @@ import Head from 'next/head'
 // import Image from 'next/image'
 // import { Poppins } from 'next/font/google'
 import Link from 'next/link'
-import Script from 'next/script'
 // import { useState } from 'react'
 import Hello from '@/components/hello'
 
@@ -60,7 +59,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            {/* <Script async src="https://phenomenal-lollipop-8f4f42.netlify.app/script.js" data-website-id="762bbe22-0fd1-49d8-b736-45df1e4340c7" /> */}
         </>
     )
 }
