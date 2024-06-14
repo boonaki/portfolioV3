@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
             </div>
             <div className="h-full w-full py-4 md:flex md:flex-col md:justify-center md:items-center lg:w-[1024px] xl:w-[1300px] md:max-h-[900px]">
                <div className="w-full md:h-[150px]"></div> {/* spacer */}
-               <div className="flex flex-col h-full min-[390px]:items-center md:flex-row md:justify-center md:items-start pt-4 md:py-16 md:min-h-[650px] md:max-h-[750px]">
+               <div className="flex flex-col h-full min-[390px]:items-center md:flex-row md:justify-center md:items-start md:pb-16 md:min-h-[650px] md:max-h-[750px]">
                   <section className={"h-full md:flex md:items-start md:overflow-y-auto md:mr-4 lg:mr-8" + (isMenuOpen ? "md:w-[410px] lg:w-[550px] xl:w-[650px]" : "max-w-[850px]")}>
                      {children} {/* page */}
                   </section>
