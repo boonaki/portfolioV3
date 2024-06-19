@@ -19,7 +19,8 @@ const OvenonPage = () => {
                   <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Ovenon Bakery</h1>
                   <div className="px-2">
                      <p>A landing page made for a local bakery, featuring a detailed list of every item they offer.</p>
-                     <div className="my-2">
+                     <br />
+                     <div className="px-2">
                         <a href="https://ovenonbakery.netlify.app/" className="mx-2 underline">Visit</a>
                      </div>
                   </div>
@@ -27,9 +28,9 @@ const OvenonPage = () => {
                <div className="my-6 w-full">
                   <h3 className="font-bold text-2xl">Tech Used:</h3>
                   <div className="flex my-1 flex-wrap px-2">
-                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#dd5f13] font-semibold'># </span>HTML</span>
-                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#dd5f13] font-semibold'># </span>CSS</span>
-                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#dd5f13] font-semibold'># </span>Javascript</span>
+                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#dd5f13] font-semibold'># </span>HTML</span>
+                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#dd5f13] font-semibold'># </span>CSS</span>
+                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#dd5f13] font-semibold'># </span>Javascript</span>
                   </div>
                </div>
             </div>

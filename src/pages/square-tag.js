@@ -14,8 +14,8 @@ const Square = () => {
                   <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Square Tag</h1>
                   <div className="px-2">
                      <p>In this online version of whack-a-mole, your goal is to a tag a timid square that has no interest in being touched.</p>
-
-                     <div className="my-2 px-2">
+                     <br />
+                     <div className="px-2">
                         <a href="https://squaretag.netlify.app" className="mx-3 my-1 underline inline-block">Play &gt;</a>
                      </div>
                   </div>
@@ -23,9 +23,9 @@ const Square = () => {
                <div className="my-6 w-full">
                   <h3 className="font-bold text-2xl">Tech Used:</h3>
                   <div className="flex my-1 flex-wrap px-2">
-                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#fff] font-semibold'># </span>HTML</span>
-                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#fff] font-semibold'># </span>CSS</span>
-                     <span className="mx-2 my-1 mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#fff] font-semibold'># </span>Javascript</span>
+                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#fff] font-semibold'># </span>HTML</span>
+                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#fff] font-semibold'># </span>CSS</span>
+                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#fff] font-semibold'># </span>Javascript</span>
                   </div>
                </div>
                <div className="mt-4 px-4">

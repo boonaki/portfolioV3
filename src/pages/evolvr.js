@@ -15,8 +15,8 @@ const Evolvr = () => {
                   <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Evolvr</h1>
                   <div className="px-2">
                      <p>Evolvr is a social media platform that allows you to organize your growth and encourages you to reflect on the progress you make, alongside being able to connect with and support the progress of the people all around you.</p>
-                     
-                     <div className="my-2 px-2">
+                     <br />
+                     <div className="px-2">
                         <a href="https://evolvr.ink" className="mx-3 my-1 underline inline-block">Visit &gt;</a>
                         <a href="https://evolvr.ink/faq" className="mx-3 my-1 underline inline-block">FAQ &gt;</a>
                         <a href="https://github.com/boonaki/progress#progressio" className="mx-3 my-1 underline inline-block">Read about the previous build &gt;</a>

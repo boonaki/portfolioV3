@@ -28,8 +28,11 @@ export default function Home() {
                             <Hello />
                         </div>
                         <div className="">
-                            <p className='max-w-[750px]'>My name is Josh Durrett. I am a <span className="font-semibold">full-stack Software Engineer</span> based in Raleigh, North Carolina. I work to make the world a more enjoyable place through my skills as a web-developer.</p>
-                            <div className="my-2 px-2 flex flex-wrap">
+                            <p className='max-w-[750px]'>My name is Josh Durrett. I am a <span className="font-semibold">full-stack Software Engineer</span> based in Raleigh, North Carolina. I work to make the world a more enjoyable place through my skills as an engineer.</p>
+                            <br />
+                            <p>Other than building applications, I enjoy spending time learning, playing video games, baking, boxing and reading.</p>
+                            <br />
+                            <div className="px-2 flex flex-wrap">
                                 <a href="https://evolvr.ink/u/boonaki" className="mx-2 md:mx-3 my-1 underline block">Follow My Progress &gt;</a>
                                 <Link href="/contact" className="mx-2 md:mx-3 my-1 underline block">Get In Touch &gt;</Link>
                             </div>

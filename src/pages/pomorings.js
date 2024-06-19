@@ -20,8 +20,8 @@ const Evolvr = () => {
                         <div className="px-2">
                             <p>Capture and leverage your focus with a simple pomodoro timer application designed to highlight the two essential modes of thinking: <strong>focused</strong> and <strong>diffused</strong>.</p><br />
                             <p>These two modes are proposed by Barbara Oakley in her book <a className='underline' href="https://barbaraoakley.com/books/a-mind-for-numbers/">"A Mind for Numbers"</a>.</p>
-
-                            <div className="my-2 px-2">
+                            <br />
+                            <div className="px-2">
                                 <a href="https://evolvr.ink" className="mx-3 my-1 underline inline-block">View on App Store &gt;</a>
                             </div>
                         </div>

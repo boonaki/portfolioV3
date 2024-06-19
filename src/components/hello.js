@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 const hellos = [
     {
-        text: "Hello",
+        text: "Hello!",
         lang: "en"
     },
     {
@@ -50,26 +50,20 @@ const hellos = [
 const Hello = () => {
     const [hello, setHello] = useState(hellos[0])
     const [idx, setIdx] = useState(0)
-    // const hellos = ['¡Hola!', 'Bonjour!', 'Ciao!', 'Guten-tag!', 'Oi!', 'Yokwe!', '你好!', 'こんにちは!', '안녕하세요!', 'привіт!', 'Ya’at’eeh!', 'Hello!']
 
-    // setInterval(() => {
-    //     setIdx(idx + 1)
-    //     setHello(hellos[idx % hellos.length])
-    // }, 7500)
+    useEffect(() => {
+        const idleIntervalTimer = setInterval(() => {
+            setIdx(prevIdx => (prevIdx + 1) % hellos.length)
+        }, 7500);
 
-    var idleIntervalTimer;
+        return () => {
+            clearInterval(idleIntervalTimer);
+        };
+    }, []);
 
-    function initIdleIntervalTimer(){
-        clearInterval(idleIntervalTimer);
-        idleIntervalTimer = setInterval(sayHello, 7500);
-    }
-
-    const sayHello = () => {
-        setIdx(idx + 1)
-        setHello(hellos[idx % hellos.length])
-    }
-       
-    initIdleIntervalTimer();
+    useEffect(() => {
+        setHello(hellos[idx]);
+    }, [idx]);
 
     return (
         <h3 className="hello-in h-full" key={hello.lang} lang={hello.lang}>{hello.text}</h3>

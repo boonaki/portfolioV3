@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
             <div className="md:w-full md:relative lg:w-[1024px] xl:w-[1200px]">
                <section className="md:w-full h-[75px] md:absolute mt-4 text-2xl flex justify-end items-center">
                   <div className="w-full pl-4 flex items-center">
-                     <Image src={boonLogo} alt="logo" className={(router.pathname === '/' ? 'block' : 'hidden md:block') + ' '} title='Josh Durrett - Software Engineer'></Image>
+                     <Image priority={true} src={boonLogo} alt="logo" className={(router.pathname === '/' ? 'block' : 'hidden md:block') + ' '} title='Josh Durrett - Software Engineer'></Image>
                      <Link href="/" className={(router.pathname !== '/' ? 'block' : 'hidden') + ' md:ml-3 mr-16 text-lg p-2 rounded-lg hover:bg-[#333] transition flex item-center'}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-left mr-1 pt-1" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
