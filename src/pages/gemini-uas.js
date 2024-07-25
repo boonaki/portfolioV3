@@ -20,7 +20,7 @@ const Gemini = () => {
                      <p>A Fullstack web application built for an International Drone Inspection Services company, with a custom built content management system, use of 3D models and custom a booking process.</p>
                      <br />
                      <div className="px-2">
-                        <a href="https://geminiuas-prototype.up.railway.app/" className="mx-3 my-1 underline inline-block">Visit &gt;</a>
+                        <a href="https://gem-proto.netlify.app/" className="mx-3 my-1 underline inline-block">Visit &gt;</a>
                      </div>
                   </div>
                </div>
