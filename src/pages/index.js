@@ -46,7 +46,7 @@ export default function Home() {
                 </div> */}
                 <section className='space-y-5'>
                     <div className="w-full max-w-[800px] space-y-2">
-                        <h3 id='favorite-tech' className="font-bold text-2xl">Favorite Web Tech</h3>
+                        <h3 id='favorite-tech' className="font-bold text-2xl">Favorite Tech</h3>
                         <ul className="tech-list">
                             <li className="tech-list-item">Svelte</li>
                             <li className="tech-list-item">Tailwind</li>
@@ -56,6 +56,8 @@ export default function Home() {
                             <li className="tech-list-item">Tauri</li>
                             <li className="tech-list-item">Next.js</li>
                             <li className="tech-list-item">Lexical</li>
+                            <li className="tech-list-item">PostgreSQL</li>
+                            <li className="tech-list-item">Diesel ORM</li>
                         </ul>
                     </div>
                     <div className="mt-2 w-full max-w-[800px] space-y-2">
@@ -70,8 +72,8 @@ export default function Home() {
                             <span className="tech-list-item">Redis</span>
                             <span className="tech-list-item">tRPC</span>
                             <span className="tech-list-item">Docker</span>
+                            <span className="tech-list-item">Prisma</span>
                             <span className="tech-list-item">MongoDB</span>
-                            <span className="tech-list-item">PostgreSQL</span>
                             <span className="tech-list-item">SQLite</span>
                             <span className="tech-list-item">Figma</span>
                             <span className="tech-list-item">Git</span>
