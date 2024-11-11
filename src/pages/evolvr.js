@@ -9,33 +9,38 @@ const Evolvr = () => {
             <title>Evolvr - Project</title>
             <meta name="author" content="Josh Durrett" />
          </Head>
-         <div className="h-full max-w-[850px]">
+         <div className="detail-view">
             <div className="mb-4">
                <div>
-                  <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Evolvr</h1>
-                  <div className="px-2">
-                     <p>Evolvr is a social media platform that allows you to organize your growth and encourages you to reflect on the progress you make, alongside being able to connect with and support the progress of the people all around you.</p>
-                     <br />
-                     <div className="px-2">
-                        <a href="https://evolvr.ink" className="mx-3 my-1 underline inline-block">Visit &gt;</a>
-                        <a href="https://evolvr.ink/faq" className="mx-3 my-1 underline inline-block">FAQ &gt;</a>
-                        <a href="https://github.com/boonaki/progress#progressio" className="mx-3 my-1 underline inline-block">Read about the previous build &gt;</a>
+                  <h1 className='detail-heading'>Evolvr</h1>
+                  <div className="">
+                     <div className='font-mono'>
+                        <p>Evolvr is a social media platform that allows you to organize your growth and encourages you to reflect on the progress you make, alongside being able to connect with and support the progress of the people all around you.</p>
+                        <br />
+                     </div>
+                     <div className="flex flex-wrap">
+                        <a href="https://evolvr.ink" className="button-primary mr-4">Visit &gt;</a>
+                        <a href="https://evolvr.ink/faq" className="button-secondary mr-4">FAQ &gt;</a>
+                        <a href="https://github.com/boonaki/progress#progressio" className="button-secondary">Read about the previous build &gt;</a>
                      </div>
                   </div>
                </div>
-               <div className="my-6 w-full">
-                  <h3 className="font-bold text-2xl">Tech Used:</h3>
-                  <div className="flex my-1 flex-wrap px-2">
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>React</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>Tailwind</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>Typescript</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>MySQL</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>AWS</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>Nextjs</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>tRPC</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#d56c6c] font-semibold'># </span>Redis</span>
-                  </div>
-               </div>
+               <div className='divider'></div>
+               <section className='space-y-5'>
+                    <div className="w-full max-w-[800px] space-y-2">
+                        <h3 id='favorite-tech' className="font-bold text-2xl">Tech Used</h3>
+                        <ul className="tech-list">
+                           <li className="tech-list-item">React</li>
+                           <li className="tech-list-item">Tailwind</li>
+                           <li className="tech-list-item">Typescript</li>
+                           <li className="tech-list-item">MySQL</li>
+                           <li className="tech-list-item">AWS</li>
+                           <li className="tech-list-item">tRPC</li>
+                           <li className="tech-list-item">Next.js</li>
+                           <li className="tech-list-item">Redis</li>
+                        </ul>
+                    </div>
+               </section>
                <div className="mt-4 px-4">
                   <Image src={logo} alt="gif" className="w-full my-6"></Image>
                </div>

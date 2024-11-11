@@ -14,55 +14,72 @@ export default function Home() {
         <>
             <Head>
                <title>Josh Durrett - Software Engineer</title>
-               <meta name="description" content="My name is Josh Durrett, I am a software engineer with a passion for solving problems. I specialize in building full-stack web applications using a variety of tools. Being able to provide a fulfilling product that I can infuse my creativity, critical thinking and passions into simple, elegant and innovative solutions, is what I love to do." />
+               <meta name="description" content="Software engineer, entrepreneur and mentor with a deep passion for solving problems." />
                <meta name="author" content="Josh Durrett" />
                <meta property="og:image" content="/imgs/boon-logo-full.png" />
                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <div className="px-2 w-full md:pt-16">
-                <div>
+            <div className="detail-view">
+                <section>
                     <div className="w-[3px] h-full bg-white"></div>
                     <div>
-                        <div className="text-5xl md:text-6xl mb-3 tracking-wide font-semibold ">
-                            <h1 className="sr-only">Josh Durrett</h1>
+                        <div className="text-5xl md:text-6xl mb-6 tracking-wide font-semibold ">
+                            <h1 className="sr-only">Josh Durrett - Software Engineer</h1>
                             <Hello />
                         </div>
                         <div className="">
-                            <p className='max-w-[750px]'>My name is Josh Durrett. I am a <span className="font-semibold">full-stack Software Engineer</span> based in Raleigh, North Carolina. I work to make the world a more enjoyable place through my skills as an engineer.</p>
-                            <br />
-                            <p>Other than building applications, I enjoy spending time learning, playing video games, baking, and reading.</p>
-                            <br />
-                            <div className="px-2 flex flex-wrap">
-                                <a href="https://evolvr.ink/u/boonaki" className="mx-2 md:mx-3 my-1 underline block">Follow My Progress &gt;</a>
-                                <Link href="/contact" className="mx-2 md:mx-3 my-1 underline block">Get In Touch &gt;</Link>
+                            <div className='font-mono'>
+                                <p className=''>My name is Josh Durrett. I am a <span className="font-semibold">software engineer</span> based in Raleigh, North Carolina. I enjoy taking on difficult challenges that allow me to balance engineering and art.</p>
+                                <br />
+                                <p>Other than programming, I enjoy spending time learning, playing video/board games, baking, and reading.</p>
+                                <br />
+                            </div>
+                            <div className="flex flex-wrap space-x-6">
+                                <a href="https://evolvr.ink/u/boonaki" className="button-primary">Progress &gt;</a>
+                                <Link href="/contact" className="button-secondary">Contact &gt;</Link>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="my-6 w-full max-w-[800px]">
-                    <h3 className="font-bold text-2xl">Tech I Use:</h3>
-                    <div className="flex my-1 flex-wrap px-2">
-                        <span className="mx-2 my-1">HTML</span>
-                        <span className="mx-2 my-1">CSS</span>
-                        <span className="mx-2 my-1">Tailwind</span>
-                        <span className="mx-2 my-1">Javascript</span>
-                        <span className="mx-2 my-1">Typescript</span>
-                        <span className="mx-2 my-1">Express.js</span>
-                        <span className="mx-2 my-1">React</span>
-                        <span className="mx-2 my-1">Svelte</span>
-                        <span className="mx-2 my-1">Rust</span>
-                        <span className="mx-2 my-1">AWS</span>
-                        <span className="mx-2 my-1">Redis</span>
-                        <span className="mx-2 my-1">Node.js</span>
-                        <span className="mx-2 my-1">Next.js</span>
-                        <span className="mx-2 my-1">MongoDB</span>
-                        <span className="mx-2 my-1">PostgreSQL</span>
-                        <span className="mx-2 my-1">SqLite</span>
-                        <span className="mx-2 my-1">REST</span>
-                        <span className="mx-2 my-1">Figma</span>
-                        <span className="mx-2 my-1">Git</span>
+                </section>
+                <div className='divider'></div>
+                {/* <div className='flex justify-center'>
+                </div> */}
+                <section className='space-y-5'>
+                    <div className="w-full max-w-[800px] space-y-2">
+                        <h3 id='favorite-tech' className="font-bold text-2xl">Favorite Web Tech</h3>
+                        <ul className="tech-list">
+                            <li className="tech-list-item">Svelte</li>
+                            <li className="tech-list-item">Tailwind</li>
+                            <li className="tech-list-item">Javascript/Typescript</li>
+                            <li className="tech-list-item">Rust</li>
+                            <li className="tech-list-item">Swift</li>
+                            <li className="tech-list-item">Tauri</li>
+                            <li className="tech-list-item">Next.js</li>
+                            <li className="tech-list-item">Lexical</li>
+                        </ul>
                     </div>
-                </div>
+                    <div className="mt-2 w-full max-w-[800px] space-y-2">
+                        <h3 id="other-tech" className="font-bold text-2xl">Other Tech I Use</h3>
+                        <div className="tech-list">
+                            <span className="tech-list-item">HTML/CSS</span>
+                            <span className="tech-list-item">SwiftUI</span>
+                            <span className="tech-list-item">React</span>
+                            <span className="tech-list-item">AWS</span>
+                            <span className="tech-list-item">Node.js</span>
+                            <span className="tech-list-item">Express.js</span>
+                            <span className="tech-list-item">Redis</span>
+                            <span className="tech-list-item">tRPC</span>
+                            <span className="tech-list-item">Docker</span>
+                            <span className="tech-list-item">MongoDB</span>
+                            <span className="tech-list-item">PostgreSQL</span>
+                            <span className="tech-list-item">SQLite</span>
+                            <span className="tech-list-item">Figma</span>
+                            <span className="tech-list-item">Git</span>
+                            <span className="tech-list-item">Unreal Engine</span>
+                            {/* <span className="mx-3 my-1">REST</span> */}
+                        </div>
+                    </div>
+                </section>
             </div>
         </>
     )

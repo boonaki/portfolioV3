@@ -12,29 +12,31 @@ const Gemini = () => {
             <title>Gemini UAS - Client</title>
             <meta name="author" content="Josh Durrett" />
          </Head>
-         <div className="h-full max-w-[850px]">
+         <div className="detail-view">
             <div className="mb-4">
                <div>
-                  <h1 className="text-5xl tracking-wide font-semibold my-2 mb-3 px-2 hello-in">Gemini UAS</h1>
+                  <h1 className="detail-heading">Gemini UAS</h1>
                   <div className="px-2">
-                     <p>A Fullstack web application built for an International Drone Inspection Services company, with a custom built content management system, use of 3D models and custom a booking process.</p>
-                     <br />
-                     <div className="px-2">
-                        <a href="https://geminiuas.com/" className="mx-3 my-1 underline inline-block">Visit &gt;</a>
+                     <div className="font-mono">
+                        <p>A Fullstack web application built for an International Drone Inspection Services company, with a custom built content management system, use of 3D models and custom a booking process.</p>
+                        <br />
                      </div>
+                     <a href="https://geminiuas.com/" className="button-primary w-fit">Visit &gt;</a>
                   </div>
                </div>
-               <div className="my-6 w-full">
-                  <h3 className="font-bold text-2xl">Tech Used:</h3>
-                  <div className="flex my-1 flex-wrap px-2">
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#ba75ff] font-semibold'># </span>HTML</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#ba75ff] font-semibold'># </span>Tailwind</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#ba75ff] font-semibold'># </span>Javascript</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#ba75ff] font-semibold'># </span>Express.js</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#ba75ff] font-semibold'># </span>MongoDB</span>
-                     <span className="mx-2 my-1 p-1 hover:border-[#ebebeb] rounded-lg border-transparent border-2 transition"><span className='text-xs text-[#ba75ff] font-semibold'># </span>Node.js</span>
-                  </div>
-               </div>
+               <div className='divider'></div>
+               <section className='space-y-5'>
+                    <div className="w-full max-w-[800px] space-y-2">
+                        <h3 id='favorite-tech' className="font-bold text-2xl">Tech Used</h3>
+                        <ul className="tech-list">
+                           <li className="tech-list-item">Svelte</li>
+                           <li className="tech-list-item">Tailwind</li>
+                           <li className="tech-list-item">Typescript</li>
+                           <li className="tech-list-item">Cloudflare</li>
+                           <li className="tech-list-item">Google API</li>
+                        </ul>
+                    </div>
+               </section>
                <div className="mt-4 px-4">
                   <Image src={img1} alt="gif" className="w-full my-6"></Image>                        
                   <Image src={img2} alt="gif" className="w-full my-6"></Image>                        
