@@ -42,11 +42,9 @@ export default function Home() {
                     </div>
                 </section>
                 <div className='divider'></div>
-                {/* <div className='flex justify-center'>
-                </div> */}
                 <section className='space-y-5'>
                     <div className="w-full max-w-[800px] space-y-2">
-                        <h3 id='favorite-tech' className="font-bold text-2xl">Favorite Tech</h3>
+                        <h3 id='favorite-tech' className="font-semibold text-base text-neutral-400">Tech I'm Using...</h3>
                         <ul className="tech-list">
                             <li className="tech-list-item">Svelte</li>
                             <li className="tech-list-item">Tailwind</li>
@@ -61,7 +59,7 @@ export default function Home() {
                         </ul>
                     </div>
                     <div className="mt-2 w-full max-w-[800px] space-y-2">
-                        <h3 id="other-tech" className="font-bold text-2xl">Other Tech I Use</h3>
+                        <h3 id="other-tech" className="font-semibold text-base text-neutral-400">Other Tech I Use...</h3>
                         <div className="tech-list">
                             <span className="tech-list-item">HTML/CSS</span>
                             <span className="tech-list-item">SwiftUI</span>
