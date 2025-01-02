@@ -29,21 +29,22 @@ export default function Home() {
                         </div>
                         <div className="">
                             <div className='font-mono'>
-                                <p className=''>My name is Josh Durrett. I am a <span className="font-semibold">software engineer</span> based in Raleigh, North Carolina. I enjoy taking on difficult challenges that allow me to balance engineering and art.</p>
+                                <p className=''>My name is Josh Durrett. I am a <span className="font-semibold">software engineer</span> based in Raleigh, North Carolina. I specialize in projects that merge technical precision with creative design principles to solve complex engineering challenges.</p>
                                 <br />
                                 <p>Other than programming, I enjoy spending time learning, playing video/board games, baking, and reading.</p>
                                 <br />
                             </div>
                             <div className="flex flex-wrap space-x-6">
-                                <a href="https://evolvr.ink/u/boonaki" className="button-primary">Progress &gt;</a>
+                                <a href="/evolvr" className="button-primary">Projects &gt;</a>
+                                <a href="https://bsky.app/profile/boonaki.bsky.social" className="button-secondary">Bluesky &gt;</a>
                                 <Link href="/contact" className="button-secondary">Contact &gt;</Link>
                             </div>
                         </div>
                     </div>
                 </section>
-                <div className='divider'></div>
+                {/* <div className='divider'></div> */}
                 <section className='space-y-5'>
-                    <div className="w-full max-w-[800px] space-y-2">
+                    {/* <div className="w-full max-w-[800px] space-y-2">
                         <h3 id='favorite-tech' className="font-semibold text-base text-neutral-400">Tech I'm Using...</h3>
                         <ul className="tech-list">
                             <li className="tech-list-item">Svelte</li>
@@ -52,13 +53,15 @@ export default function Home() {
                             <li className="tech-list-item">Rust</li>
                             <li className="tech-list-item">Swift</li>
                             <li className="tech-list-item">Tauri</li>
+                            <li className="tech-list-item">Java</li>
+                            <li className="tech-list-item">Tauri</li>
                             <li className="tech-list-item">Next.js</li>
                             <li className="tech-list-item">Lexical</li>
                             <li className="tech-list-item">PostgreSQL</li>
                             <li className="tech-list-item">Diesel ORM</li>
                         </ul>
-                    </div>
-                    <div className="mt-2 w-full max-w-[800px] space-y-2">
+                    </div> */}
+                    {/* <div className="mt-2 w-full max-w-[800px] space-y-2">
                         <h3 id="other-tech" className="font-semibold text-base text-neutral-400">Other Tech I Use...</h3>
                         <div className="tech-list">
                             <span className="tech-list-item">HTML/CSS</span>
@@ -76,9 +79,8 @@ export default function Home() {
                             <span className="tech-list-item">Figma</span>
                             <span className="tech-list-item">Git</span>
                             <span className="tech-list-item">Unreal Engine</span>
-                            {/* <span className="mx-3 my-1">REST</span> */}
                         </div>
-                    </div>
+                    </div> */}
                 </section>
             </div>
         </>

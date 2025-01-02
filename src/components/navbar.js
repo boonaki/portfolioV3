@@ -32,15 +32,15 @@ const Navbar = (props) => {
          ]} />
          break;
       case 3:
-         elem = <MenuOptions menuOpts={[{ url: 'mailto:joshdurrett17@gmail.com', 'title': 'Email', type: 'ext' }, { url: 'https://github.com/boonaki', 'title': 'Github', type: 'ext' }, { url: 'https://twitter.com/durrettjosh', 'title': 'Twitter', type: 'ext' }, { url: 'https://linkedin.com/in/joshdurrett', 'title': 'LinkedIn', type: 'ext' }]} />
+         elem = <MenuOptions menuOpts={[{ url: 'mailto:joshdurrett17@gmail.com', 'title': 'Email', type: 'ext' }, { url: 'https://github.com/boonaki', 'title': 'Github', type: 'ext' }, { url: 'https://bsky.app/profile/boonaki.bsky.social', 'title': 'Bluesky', type: 'ext' }, { url: 'https://linkedin.com/in/joshdurrett', 'title': 'LinkedIn', type: 'ext' }]} />
          break;
    }
 
    return (
       <section className='flex justify-center md:flex-col md:justify-start mt-8 md:mt-0'>
          <div className='w-full justify-end px-4 hidden md:flex'>
-            <button onClick={() => props.handleMenu()} className='p-1 hover:bg-[#333] rounded' title={props.isOpen ? 'Close Menu' : 'Open Menu'}>
-               <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-category-2" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
+            <button onClick={() => props.handleMenu()} className='button-icon' title={props.isOpen ? 'Close Menu' : 'Open Menu'}>
+               <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-category-2" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M14 4h6v6h-6z" />
                   <path d="M4 14h6v6h-6z" />

@@ -56,14 +56,17 @@ const Contact = () => {
                   <h1 className="detail-heading">Contact</h1>
                   <div>
                      <div className="font-mono mb-4">
-                        <p>I am always open to new freelance clients, interesting project opportunities, and new friends! Feel free to reach out using the form below or any of my socials.</p>
+                        <p>I am always open to new freelance clients, interesting project opportunities, and new friends! Feel free to reach out using my email or any of my socials.</p>
                      </div>
-                     <a href="mailto:joshdurrett17@gmail.com" className="button-secondary w-fit">joshdurrett17@gmail.com</a>
+                     <a href="mailto:joshdurrett17@gmail.com" className="button-secondary w-fit hover:text-accent flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail mr-2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        joshdurrett17@gmail.com
+                     </a>
                   </div>
                </div>
             </div>
-            <div className='divider'></div>
-            <div className="px-4 mt-4 mb-8 md:my-0">
+            {/* <div className='divider'></div> */}
+            {/* <div className="px-4 mt-4 mb-8 md:my-0">
                <form>
                   <div className="md:flex my-2">
                      <div className="mx-2 md:mx-3 my-3">
@@ -83,7 +86,7 @@ const Contact = () => {
                      <button onClick={(e) => handleSubmit(e)} className="w-full py-2 rounded-lg border-2 border-white hover:bg-white hover:text-[#202020] transition">Send Message</button>
                   </div>
                </form>
-            </div>
+            </div> */}
          </div>
       </>
    )

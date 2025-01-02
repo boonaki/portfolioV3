@@ -44,10 +44,19 @@ body {
 
 @layer components {
     .button-primary {
-        @apply my-1 hover:underline block bg-[#a9ebff] text-black md:text-white md:bg-transparent md:hover:bg-[#a9ebff] hover:text-black rounded-full py-2 px-4 transition;
+        @apply my-1 hover:underline block bg-accent text-black md:text-white md:bg-transparent md:hover:bg-accent hover:text-black rounded-full py-2 px-4 transition;
     }
     .button-secondary {
-        @apply my-1 hover:underline block bg-neutral-400/30 md:bg-transparent md:hover:bg-neutral-400/25 rounded-full py-2 px-4 transition;
+        @apply my-1 hover:underline block bg-neutral-400/10 md:bg-transparent md:hover:bg-neutral-400/10 rounded-full py-2 px-4 transition;
+    }
+    .button-secondary.button-info {
+        @apply rounded-lg bg-neutral-400/10 flex items-center justify-between;
+    }
+    .button-secondary.button-info > svg {
+        @apply transition;
+    }
+    .button-icon {
+        @apply hover:text-accent mx-1 md:mx-2 transition p-2 hover:bg-neutral-400/10 rounded-lg;
     }
     .detail-view-container {
         @apply h-full md:detail-view-height;
@@ -59,7 +68,7 @@ body {
         @apply text-5xl md:text-6xl mb-6 tracking-wide font-semibold hello-in;
     }
     .tech-list {
-        @apply flex my-1 flex-wrap px-2 font-mono border-l-4 border-l-[#a9ebff];
+        @apply flex my-1 flex-wrap px-2 font-mono border-l-4 border-l-accent;
     }
     .tech-list-item {
         @apply mx-3 my-1;
@@ -68,7 +77,7 @@ body {
         @apply h-[1px] w-full bg-gray-600 my-8;
     }
     .link {
-        @apply underline hover:text-[#a9ebff] transition;
+        @apply underline hover:text-accent transition;
     }
 }
 @layer utilities {

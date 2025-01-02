@@ -3,12 +3,12 @@ import Link from 'next/link'
 
 const MenuOptions = ({ menuOpts }) => {
    return (
-      <div className="px-4 w-5/6 flex flex-col items-start">
+      <div className="px-4 w-11/12 flex flex-col items-start">
          {menuOpts.map(e => (
                e.type === "int" ?
-               <Link href={e.url} key={e.url} className="my-1 p-2 w-full rounded hover:bg-[#5353534a] transition">{e.title}</Link>
+               <Link href={e.url} key={e.url} className="my-1 p-2 w-full rounded hover:bg-[#5353534a] hover:text-accent transition">{e.title}</Link>
                :
-               <a href={e.url} key={e.url} className="my-1 p-2 w-full rounded hover:bg-[#5353534a] transition">{e.title}</a>
+               <a href={e.url} key={e.url} className="my-1 p-2 w-full rounded hover:bg-[#5353534a] hover:text-accent transition">{e.title}</a>
             )
          )}
       </div>
