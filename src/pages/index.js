@@ -34,9 +34,9 @@ export default function Home() {
                                 <p>Other than programming, I enjoy spending time learning, playing video/board games, baking, and reading.</p>
                                 <br />
                             </div>
-                            <div className="flex flex-wrap space-x-6">
-                                <a href="/evolvr" className="button-primary">Projects &gt;</a>
-                                <a href="https://bsky.app/profile/boonaki.bsky.social" className="button-secondary">Bluesky &gt;</a>
+                            <div className="flex flex-wrap">
+                                <a href="/evolvr" className="button-primary mr-6">Projects &gt;</a>
+                                <a href="https://bsky.app/profile/boonaki.bsky.social" className="button-secondary mr-6">Bluesky &gt;</a>
                                 <Link href="/contact" className="button-secondary">Contact &gt;</Link>
                             </div>
                         </div>
