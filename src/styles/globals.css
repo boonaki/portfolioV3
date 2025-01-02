@@ -58,6 +58,9 @@ body {
     .button-icon {
         @apply hover:text-accent mx-1 md:mx-2 transition p-2 hover:bg-neutral-400/10 rounded-lg;
     }
+    .button.icon > svg {
+        @apply sm:w-[34px] sm:h-[34px];
+    }
     .detail-view-container {
         @apply h-full md:detail-view-height;
     }
