@@ -37,7 +37,7 @@ export default function Home() {
                             <div className="flex flex-wrap">
                                 <a href="/evolvr" className="button-primary mr-6">Projects &gt;</a>
                                 <a href="https://bsky.app/profile/boonaki.bsky.social" className="button-secondary mr-6">Bluesky &gt;</a>
-                                <Link href="/contact" className="button-secondary">Contact &gt;</Link>
+                                <Link href="/contact" className="button-secondary flex-grow sm:flex-grow-0">Contact &gt;</Link>
                             </div>
                         </div>
                     </div>
