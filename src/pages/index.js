@@ -29,7 +29,7 @@ export default function Home() {
                         </div>
                         <div className="">
                             <div className='font-mono'>
-                                <p className=''>My name is Josh Durrett. I am a <span className="font-semibold">software engineer</span> based in Raleigh, North Carolina. I specialize in projects that merge technical precision with creative design principles to solve complex engineering challenges.</p>
+                                <p className=''>My name is Josh Durrett. I am a <span className="font-semibold">software engineer</span> based in Raleigh, North Carolina. I specialize in developing products that merge technical precision with creative design principles to solve complex engineering challenges.</p>
                                 <br />
                                 <p>Other than programming, I enjoy spending time learning, playing video/board games, baking, and reading.</p>
                                 <br />
