@@ -29,9 +29,7 @@ export default function Home() {
                         </div>
                         <div className="">
                             <div className='font-mono'>
-                                <p className=''>My name is Josh. I really enjoy building software products.</p>
-                                <br />
-                                <p>Other than programming, I'm passionate about education, design, video/board games, baking and music.</p>
+                                <p className=''>My name is Josh. I really enjoy writing software but other than that, I'm also passionate about <b>education</b>, <b>design</b>, <b>video/board games</b>, <b>baking</b> and <b>music</b>.</p>
                                 <br />
                             </div>
                             <div className="flex flex-wrap">
