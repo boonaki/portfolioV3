@@ -14,7 +14,7 @@ export default function Home() {
         <>
             <Head>
                <title>Josh Durrett - Software Engineer</title>
-               <meta name="description" content="Highly ambitious software engineer with a knack for engineering as an art." />
+               <meta name="description" content="Explore my work as a Software Engineer." />
                <meta name="author" content="Josh Durrett" />
                <meta property="og:image" content="/imgs/boon-logo-full.png" />
                <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,9 +29,9 @@ export default function Home() {
                         </div>
                         <div className="">
                             <div className='font-mono'>
-                                <p className=''>My name is Josh Durrett. I am a <span className="font-semibold">software engineer</span> based in Raleigh, North Carolina. I specialize in developing products that merge technical precision with creative design principles to solve complex engineering challenges.</p>
+                                <p className=''>My name is Josh. I really enjoy building software products.</p>
                                 <br />
-                                <p>Other than programming, I enjoy spending time learning, playing video/board games, baking, and reading.</p>
+                                <p>Other than programming, I'm passionate about education, design, video/board games, baking and music.</p>
                                 <br />
                             </div>
                             <div className="flex flex-wrap">
