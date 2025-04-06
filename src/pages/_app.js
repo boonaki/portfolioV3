@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
         <>
             <Layout>
                 <Component {...pageProps} />
-                <Script async src="https://phenomenal-lollipop-8f4f42.netlify.app/script.js" data-website-id="762bbe22-0fd1-49d8-b736-45df1e4340c7" />
+                <Script defer src="https://beamish-pastelito-7a7f06.netlify.app/script.js" data-website-id="563edfc9-02d8-4008-b549-50e3e6477aa8"></Script>
             </Layout>
         </>
     )
